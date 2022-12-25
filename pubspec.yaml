@@ -1,0 +1,32 @@
+name: turbo_crypt
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  filesystem_picker: ^3.1.0
+  freezed_annotation: ^2.0.1
+  hooks_riverpod: ^1.0.4
+  path: ^1.8.2
+  external_path: ^1.0.3
+  encrypt: ^5.0.1
+  permission_handler: ^10.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.2
+  freezed: ^2.3.0
+
+flutter:
+
+  uses-material-design: true
